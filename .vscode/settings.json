@@ -1,0 +1,19 @@
+{
+    "workbench.colorTheme": "NarutoDark",
+    "workbench.preferredDarkColorTheme": "Default High Contrast",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.preferredHighContrastLightColorTheme": "Visual Studio Dark",
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": true,
+    "workbench.tree.expandMode": "doubleClick",
+    "workbench.tree.indent": 4,
+    "workbench.view.alwaysShowHeaderActions": false,
+    "eslint.format.enable": true,
+    "eslint.run": "onSave",
+    "editor.wordWrap": "off",
+    "[git-commit]": {
+        "editor.acceptSuggestionOnCommitCharacter": true
+    },
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "git.useEditorAsCommitInput": false
+}
