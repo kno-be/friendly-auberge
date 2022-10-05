@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Pacifico;
+  src: url(./resources/Fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,10 +17,25 @@ html {
   scroll-behavior: smooth;
 }
 
+header {
+  display: fl;
+  background-color: red;
+  color: aliceblue;
+  font-size: 2rem;
+  align-content: center;
+  text-align: center;
+  height: 3rem;
+  width: 100%;
+}
+
+nav {
+  font-family: Pacifico;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
 body {
-    background-color: black;
-    display: flex;
-    justify-content: center;
+    background-color: grey;
 }
 
 section {
@@ -23,9 +43,6 @@ section {
     max-width: 620px;
 }
 
-#one {
-    margin: 1rem;
-    background-color: aqua;
-}
+
 
 
