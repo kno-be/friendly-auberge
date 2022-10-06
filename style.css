@@ -3,6 +3,11 @@
   src: url(./resources/Fonts/Pacifico/Pacifico-Regular.ttf);
 }
 
+@font-face {
+  font-family: Roboto;
+  src: url(./resources/Fonts/Roboto/Roboto-Light.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,33 +20,44 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+
 }
 
-header {
-  display: fl;
-  background-color: red;
-  color: aliceblue;
-  font-size: 2rem;
-  align-content: center;
-  text-align: center;
-  height: 3rem;
+.navbar {
   width: 100%;
-}
-
-nav {
-  font-family: Pacifico;
+  height: 8rem;
+  padding: 2rem;
+  margin: 0%;
+  font-family: Roboto;
   font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.9);
   color: aliceblue;
+  display: flex;
+  align-items: center;
 }
 
-body {
-    background-color: grey;
+.navbar-logo {
+  padding-left: 4rem;
 }
 
-section {
-    min-width: 620px;
-    max-width: 620px;
+.navbar-logo a {
+  font-family: Pacifico;
+  font-size: 3rem;
+  color: #eee;
+  letter-spacing: 0.2rem;
 }
+
+.nav-list {
+  position: absolute;
+  left: 50%;
+}
+
+.nav-link {
+  color: #eee;
+  padding-right: 2rem;
+  letter-spacing: 00.2rem;
+}
+
 
 
 
