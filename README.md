@@ -1,4 +1,4 @@
-# Friendly Auberge
+# Friendly Restaurant Menu
 
 ### "Vivez un séjour mémorable près de Toulouse "
 
@@ -6,6 +6,10 @@
 * Cafe
 * Restaurant
 
-32 Rue Gilet
-31770 Colomiers
-+33 5 61 42 37 42
+Address: 32 Rue Gilet, Colomiers
+
+Postal Code: 31770 
+
+Phone: +33 (05) 61 42 37 42
+
+Website: https://friendly-auberge.com/
