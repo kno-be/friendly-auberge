@@ -1,7 +1,11 @@
-menu direcionar pro id da section
+# Friendly Auberge
 
-div das paradas 
+### "Vivez un séjour mémorable près de Toulouse "
 
-absolute
-when hover trocar index
+* Hostel
+* Cafe
+* Restaurant
 
+32 Rue Gilet
+31770 Colomiers
++33 5 61 42 37 42
