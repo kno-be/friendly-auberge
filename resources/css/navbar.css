@@ -1,39 +1,147 @@
-
 .navbar {
-    width: 100%;
-    height: 8rem;
-    padding: 2rem;
-    margin: 0%;
-    font-family: Roboto;
-    font-size: 2rem;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: aliceblue;
-    display: flex;
-    align-items: center;
-  }
-  
+  width: 100%;
+  height: 8rem;
+  padding: 2rem;
+  margin: 0%;
+  font-family: Roboto;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  padding-left: 6rem;
+}
+
+.navbar-logo a {
+  font-family: Pacifico;
+  font-size: 3rem;
+  color: #eee;
+  letter-spacing: 0.2rem;
+}
+
+/* MENU */
+.menu {
+  height: 4rem;
+  width: 4rem;
+  position: fixed;
+  right: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.line {
+  width: 100%;
+  height: 0.2rem;
+  background-color: #eee;
+  transition: transform 0.3s;
+}
+
+.line-1 {
+  width: 50%;
+}
+
+.line-3 {
+  width: 50%;
+  margin-left: auto;
+}
+
+.menu-list {
+  height: 4rem;
+  display: flex;
+  font-family: Roboto;
+  font-size: 2rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: grey;
+  position: relative;
+  visibility: hidden;
+}
+
+.menu-link {
+  color: black;
+}
+
+/* END OF MENU */
+
+.nav-list {
+  position: absolute;
+  left: 50%;
+}
+
+.nav-link {
+  color: #eee;
+  padding-right: 2rem;
+  letter-spacing: 00.2rem;
+}
+
+.nav-link:hover {
+  color: blue;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
   .navbar-logo {
     padding-left: 4rem;
   }
-  
+
+  .nav-list {
+    visibility: hidden;
+  }
+
+  .menu {
+    visibility: visible;
+  }
+
+  .menu:hover {
+
+  }
+
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    height: 6rem;
+  }
+
+  .navbar-logo {
+    padding-left: 2rem;
+  }
+
   .navbar-logo a {
-    font-family: Pacifico;
-    font-size: 3rem;
-    color: #eee;
+    font-size: 2.5rem;
     letter-spacing: 0.2rem;
   }
+}
+
+  @media (max-width: 400px) {
+    .navbar {
+      height: 5rem;
+    }
+
+    .navbar-logo {
+      padding-left: 0rem;
+    }
   
-  .nav-list {
-    position: absolute;
-    left: 50%;
-  }
-  
-  .nav-link {
-    color: #eee;
-    padding-right: 2rem;
-    letter-spacing: 00.2rem;
-  }
-  
-  .nav-link:hover {
-    color: blue;
-  }
+    .navbar-logo a {
+      font-size: 2rem;
+      letter-spacing: 0.2rem;
+    }
+
+    .menu {
+      height: 2rem;
+      width: 2rem;
+    }
+
+    .menu-list {
+      font-size: 1.5rem;
+    }
+
+}
