@@ -1,7 +1,9 @@
-menu direcionar pro id da section
+### STEPS:
 
-div das paradas 
+* Navbar:
+- make it fixed;
+- add menu;
 
-absolute
-when hover trocar index
+
+
 

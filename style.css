@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family: Roboto;
+  font-family: Roboto-light;
   src: url(./resources/Fonts/Roboto/Roboto-Light.ttf);
 }
 
@@ -20,5 +20,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-
+  display: flex;
+  flex-direction: column;
 }
+
