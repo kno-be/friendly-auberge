@@ -1,9 +1,3 @@
-### STEPS:
-
-* Navbar:
-- make it fixed;
-- add menu;
-
 # Friendly Restaurant Menu
 
 ### "Vivez un séjour mémorable près de Toulouse "
