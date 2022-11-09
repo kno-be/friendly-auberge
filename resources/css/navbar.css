@@ -7,15 +7,26 @@
   font-size: 2rem;
   background-color: rgba(0, 0, 0, 0.9);
   color: aliceblue;
-  position: fixed;
+  position: absolute;
   top: 0rem;
   padding: 3rem;
   z-index: 100;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-languages{
+  font-family: Roboto-light;
+}
+
+.navbar-languages a {
+  color: white;
+  padding-right: 1rem;
 }
 
 .navbar.change {
+  position: fixed;
   height: 100vh;
   align-items: baseline;
 
@@ -30,10 +41,15 @@
 
   /* MENU */
   .nav {
-    height: 4rem;
-    width: 4rem;
+    height: 5rem;
+    width: 5rem;
     position: fixed;
     right: 4rem;
+    bottom: 4rem;
+    background-color: black;
+    border: 0.5px solid white;
+    border-radius: 50%;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
