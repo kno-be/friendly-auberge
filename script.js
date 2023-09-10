@@ -12,4 +12,4 @@ navList.addEventListener('click', () => {
     navbar.classList.toggle('change');
     menu.classList.toggle('change');
 })
-// END OF NAVBAR
+// NAVBAR
