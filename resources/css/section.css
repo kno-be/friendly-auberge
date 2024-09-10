@@ -41,7 +41,8 @@
   
   .menu-item-heading {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    align-items: center;
     margin: 0;
   }
   
