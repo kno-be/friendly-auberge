@@ -8,6 +8,12 @@
   src: url(./resources/Fonts/Roboto/Roboto-Light.ttf);
 }
 
+:root {
+  --blue: #3D64AD;
+  --green: #679A2F;
+  --red: #E6233C;
+}
+
 * {
   margin: 0;
   padding: 0;
