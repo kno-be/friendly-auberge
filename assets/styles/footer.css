@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    height: 50vh;
+    height: auto;
     background-color: #3D64AD;
     display: flex;
     align-items: center;
@@ -10,7 +10,7 @@ footer {
 
 .social-media {
     padding-top: 10rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .social-media-link {
@@ -24,10 +24,31 @@ footer {
     color: #f9fafb;
 }
 
+.contact {
+    font-family: Roboto-light;
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-bottom: 10rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.contact .info {
+    padding-bottom: 10px;
+}
+
+.contact a.info {
+    color: aliceblue;
+}
+
+.contact a.info:hover {
+    color: var(--red);
+}
+
 .copyright {
     font-family: Roboto-light;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: 0.2rem;
     font-weight: 300;
     text-align: center;
