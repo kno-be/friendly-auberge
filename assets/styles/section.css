@@ -33,7 +33,7 @@
     flex-shrink: 0;
     object-fit: cover;
     margin-right: 1.5em;
-
+    border: 2px solid #000;
     border-radius: 50%;
   }
   
